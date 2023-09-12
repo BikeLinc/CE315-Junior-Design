@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: vikas-kumar-ojha-hwofx
+  project: word_detection-mtq4b
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vikas-kumar-ojha-hwofx/word_detection-mtq4b/dataset/1
