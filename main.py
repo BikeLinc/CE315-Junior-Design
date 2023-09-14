@@ -36,15 +36,14 @@ original_pt = 'yolov8n.pt'
 
 # Using dataset annotated with 8 images, not a good training set. Un-comment
 # the line below it to use a handwriting dataset I got from roboflow. -LS
-# Load
+# Loads
 model = YOLO(original_yaml)
 model = YOLO(original_pt)
 model = YOLO(original_yaml).load(original_pt)
 
 
 # Define and get path for training datasets
-train_yaml = "datasets/ls-annot-8/data.yaml"
-#train_yaml = "datasets/word_detection/data.yaml"
+train_yaml = "C:/some_path_that_you_need_to_change/LAM/full_pages"
 
 
 # Train model
@@ -56,10 +55,21 @@ train_yaml = "datasets/ls-annot-8/data.yaml"
 # a better trained model hopefully.
 #
 results = model.train(data=str(Path(train_yaml).resolve()),
-                      epochs=1,
+                      epochs=10,
                       batch=16,
                       verbose=True
                       )
+
+
+# Define and get path for training datasets
+# train_yaml = "datasets/ls-annot-8/data.yaml"
+
+# results = model.train(data=str(Path(train_yaml).resolve()),
+#                       epochs=32,
+#                       batch=16,
+#                       verbose=True
+#                       )
+
 
 # After model is trained predict on some test images
 model.predict('records/', save=True)
