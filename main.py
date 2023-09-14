@@ -43,7 +43,7 @@ model = YOLO(original_yaml).load(original_pt)
 
 
 # Define and get path for training datasets
-train_yaml = "C:/some_path_that_you_need_to_change/LAM/full_pages"
+train_yaml = "C:/some_path_that_you_need_to_change/LAM/full_pages/data.yaml"
 
 
 # Train model
