@@ -13,7 +13,7 @@ This project is part of our coursework for Fort Lewis College's **CE315 Junior D
 ### Collaborators
 - Eric Hill - [GitHub](https://github.com/EricJHill)
 - Anders Ladow - [GitHub](https://github.com/amladow)
-- Lincoln Scheer - [GitHub]([https:](https://github.com/BikeLinc)
+- Lincoln Scheer - [GitHub](https://github.com/BikeLinc)
 - Lucien Verrone - [GitHub](https://github.com/lucienverrone)
 
 ### Typical Usage
