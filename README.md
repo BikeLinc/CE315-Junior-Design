@@ -36,3 +36,16 @@ bambi.run(overlap_threshold) # Returns out.html
 
 ### Folder Layout
 <img src="folder_structure.png" height="500" />
+
+### Virtual Spreadsheet Examples
+#### Example 1
+[Virtual Spreadsheet](https://htmlpreview.github.io/?https://github.com/BikeLinc/CE315-Junior-Design/blob/build/out1/out.html)
+
+[Image](https://github.com/BikeLinc/CE315-Junior-Design/blob/build/data/forms/record_example.jpg)
+#### Example 2
+[Virtual Spreadsheet](https://htmlpreview.github.io/?https://github.com/BikeLinc/CE315-Junior-Design/blob/build/out/out.html)
+
+[Image](https://github.com/BikeLinc/CE315-Junior-Design/blob/build/data/forms/im1.jpg)
+
+
+
